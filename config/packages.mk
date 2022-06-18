@@ -17,7 +17,7 @@
 PRODUCT_PACKAGES += \
     BluetoothExt \
     SimpleCalendar \
-    DuckDuckGo \
+    FossBrowser \
     ExactCalculator \
     LatinIME \
     Launcher3QuickStep \
