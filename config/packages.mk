@@ -25,7 +25,8 @@ PRODUCT_PACKAGES += \
     SimpleGallery \
     Stk \
     ThemePicker \
-    ArrowThemesStub
+    ArrowThemesStub \
+    GameSpace
 
 # SystemUI plugins
 PRODUCT_PACKAGES += \
@@ -45,6 +46,10 @@ PRODUCT_PACKAGES += \
 # Navbar
 PRODUCT_PACKAGES += \
     NavigationBarNoHintOverlay
+
+# Themes
+PRODUCT_PACKAGES += \
+    AndroidBlackThemeOverlay
 
 # Extra tools
 PRODUCT_PACKAGES += \

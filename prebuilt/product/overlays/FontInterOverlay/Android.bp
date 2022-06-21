@@ -1,5 +1,4 @@
-//
-// Copyright (C) 2017-2019 The LineageOS Project
+// Copyright (C) 2022 ArrowOS Project
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -12,33 +11,10 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-//
 
-cc_library_headers {
-    name: "libbfqio_headers",
-    vendor_available: true,
-    export_include_dirs: ["include"],
-}
-
-cc_library {
-    name: "libbfqio",
-    vendor_available: true,
-    srcs: [
-        "bfqio.c",
-    ],
-
-    shared_libs: [
-        "libcutils",
-        "liblog",
-    ],
-    header_libs: [
-        "libbfqio_headers",
-    ],
-    export_header_lib_headers: ["libbfqio_headers"],
-
-    cflags: [
-        "-Werror",
-        "-Wall",
-        "-Wextra",
-    ],
+runtime_resource_overlay {
+    name: "FontInterOverlay",
+    product_specific: true,
+    sdk_version: "current",
+    theme: "FontInter",
 }
