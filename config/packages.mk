@@ -47,10 +47,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     NavigationBarNoHintOverlay
 
-# Themes
-PRODUCT_PACKAGES += \
-    AndroidBlackThemeOverlay
-
 # Extra tools
 PRODUCT_PACKAGES += \
     7z \
